@@ -147,7 +147,7 @@ def reset():
             i += 1
 
 
-def main():
+def play_tictactoe():
     playing = True
     while playing:
         print_map()
@@ -181,4 +181,4 @@ def main():
             playing = False
 
 
-main()
+play_tictactoe()
